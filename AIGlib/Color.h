@@ -1,0 +1,156 @@
+#ifndef __COLOR_H__
+#define __COLOR_H__
+
+#include "AIGlibMacros.h"
+#include <glm/glm.hpp>
+
+namespace AIGlib
+{
+	class AIGLIB_API Color 
+	{
+	public:
+		static constexpr const glm::vec3 IndianRed = glm::vec3(0.804f, 0.361f, 0.361f);
+		static constexpr const glm::vec3 LightCoral = glm::vec3(0.941f, 0.502f, 0.502f);
+		static constexpr const glm::vec3 Salmon = glm::vec3(0.980f, 0.502f, 0.447f);
+		static constexpr const glm::vec3 DarkSalmon = glm::vec3(0.914f, 0.588f, 0.478f);
+		static constexpr const glm::vec3 LightSalmon = glm::vec3(1.000f, 0.627f, 0.478f);
+		static constexpr const glm::vec3 Crimson = glm::vec3(0.863f, 0.078f, 0.235f);
+		static constexpr const glm::vec3 Red = glm::vec3(1.000f, 0.000f, 0.000f);
+		static constexpr const glm::vec3 FireBrick = glm::vec3(0.698f, 0.133f, 0.133f);
+		static constexpr const glm::vec3 DarkRed = glm::vec3(0.545f, 0.000f, 0.000f);
+		static constexpr const glm::vec3 Pink = glm::vec3(1.000f, 0.753f, 0.796f);
+		static constexpr const glm::vec3 LightPink = glm::vec3(1.000f, 0.714f, 0.757f);
+		static constexpr const glm::vec3 HotPink = glm::vec3(1.000f, 0.412f, 0.706f);
+		static constexpr const glm::vec3 DeepPink = glm::vec3(1.000f, 0.078f, 0.576f);
+		static constexpr const glm::vec3 MediumVioletRed = glm::vec3(0.780f, 0.082f, 0.522f);
+		static constexpr const glm::vec3 PaleVioletRed = glm::vec3(0.859f, 0.439f, 0.576f);
+		static constexpr const glm::vec3 Coral = glm::vec3(1.000f, 0.498f, 0.314f);
+		static constexpr const glm::vec3 Tomato = glm::vec3(1.000f, 0.388f, 0.278f);
+		static constexpr const glm::vec3 OrangeRed = glm::vec3(1.000f, 0.271f, 0.000f);
+		static constexpr const glm::vec3 DarkOrange = glm::vec3(1.000f, 0.549f, 0.000f);
+		static constexpr const glm::vec3 Orange = glm::vec3(1.000f, 0.647f, 0.000f);
+		static constexpr const glm::vec3 Gold = glm::vec3(1.000f, 0.843f, 0.000f);
+		static constexpr const glm::vec3 Yellow = glm::vec3(1.000f, 1.000f, 0.000f);
+		static constexpr const glm::vec3 LightYellow = glm::vec3(1.000f, 1.000f, 0.878f);
+		static constexpr const glm::vec3 LemonChion = glm::vec3(1.000f, 0.980f, 0.804f);
+		static constexpr const glm::vec3 LightGoldenrodYellow = glm::vec3(0.980f, 0.980f, 0.824f);
+		static constexpr const glm::vec3 PapayaWhip = glm::vec3(1.000f, 0.937f, 0.835f);
+		static constexpr const glm::vec3 Moccasin = glm::vec3(1.000f, 0.894f, 0.710f);
+		static constexpr const glm::vec3 PeachPu = glm::vec3(1.000f, 0.855f, 0.725f);
+		static constexpr const glm::vec3 PaleGoldenrod = glm::vec3(0.933f, 0.910f, 0.667f);
+		static constexpr const glm::vec3 Khaki = glm::vec3(0.941f, 0.902f, 0.549f);
+		static constexpr const glm::vec3 DarkKhaki = glm::vec3(0.741f, 0.718f, 0.420f);
+		static constexpr const glm::vec3 Lavender = glm::vec3(0.902f, 0.902f, 0.980f);
+		static constexpr const glm::vec3 Thistle = glm::vec3(0.847f, 0.749f, 0.847f);
+		static constexpr const glm::vec3 Plum = glm::vec3(0.867f, 0.627f, 0.867f);
+		static constexpr const glm::vec3 Violet = glm::vec3(0.933f, 0.510f, 0.933f);
+		static constexpr const glm::vec3 Orchid = glm::vec3(0.855f, 0.439f, 0.839f);
+		static constexpr const glm::vec3 Fuchsia = glm::vec3(1.000f, 0.000f, 1.000f);
+		static constexpr const glm::vec3 Magenta = glm::vec3(1.000f, 0.000f, 1.000f);
+		static constexpr const glm::vec3 MediumOrchid = glm::vec3(0.729f, 0.333f, 0.827f);
+		static constexpr const glm::vec3 MediumPurple = glm::vec3(0.576f, 0.439f, 0.859f);
+		static constexpr const glm::vec3 BlueViolet = glm::vec3(0.541f, 0.169f, 0.886f);
+		static constexpr const glm::vec3 DarkViolet = glm::vec3(0.580f, 0.000f, 0.827f);
+		static constexpr const glm::vec3 DarkOrchid = glm::vec3(0.600f, 0.196f, 0.800f);
+		static constexpr const glm::vec3 DarkMagenta = glm::vec3(0.545f, 0.000f, 0.545f);
+		static constexpr const glm::vec3 Purple = glm::vec3(0.502f, 0.000f, 0.502f);
+		static constexpr const glm::vec3 Indigo = glm::vec3(0.294f, 0.000f, 0.510f);
+		static constexpr const glm::vec3 SlateBlue = glm::vec3(0.416f, 0.353f, 0.804f);
+		static constexpr const glm::vec3 DarkSlateBlue = glm::vec3(0.282f, 0.239f, 0.545f);
+		static constexpr const glm::vec3 GreenYellow = glm::vec3(0.678f, 1.000f, 0.184f);
+		static constexpr const glm::vec3 Chartreuse = glm::vec3(0.498f, 1.000f, 0.000f);
+		static constexpr const glm::vec3 LawnGreen = glm::vec3(0.486f, 0.988f, 0.000f);
+		static constexpr const glm::vec3 Lime = glm::vec3(0.000f, 1.000f, 0.000f);
+		static constexpr const glm::vec3 LimeGreen = glm::vec3(0.196f, 0.804f, 0.196f);
+		static constexpr const glm::vec3 PaleGreen = glm::vec3(0.596f, 0.984f, 0.596f);
+		static constexpr const glm::vec3 LightGreen = glm::vec3(0.565f, 0.933f, 0.565f);
+		static constexpr const glm::vec3 MediumSpringGreen = glm::vec3(0.000f, 0.980f, 0.604f);
+		static constexpr const glm::vec3 SpringGreen = glm::vec3(0.000f, 1.000f, 0.498f);
+		static constexpr const glm::vec3 MediumSeaGreen = glm::vec3(0.235f, 0.702f, 0.443f);
+		static constexpr const glm::vec3 SeaGreen = glm::vec3(0.180f, 0.545f, 0.341f);
+		static constexpr const glm::vec3 ForestGreen = glm::vec3(0.133f, 0.545f, 0.133f);
+		static constexpr const glm::vec3 Green = glm::vec3(0.000f, 0.502f, 0.000f);
+		static constexpr const glm::vec3 DarkGreen = glm::vec3(0.000f, 0.392f, 0.000f);
+		static constexpr const glm::vec3 YellowGreen = glm::vec3(0.604f, 0.804f, 0.196f);
+		static constexpr const glm::vec3 OliveDrab = glm::vec3(0.420f, 0.557f, 0.137f);
+		static constexpr const glm::vec3 Olive = glm::vec3(0.502f, 0.502f, 0.000f);
+		static constexpr const glm::vec3 DarkOliveGreen = glm::vec3(0.333f, 0.420f, 0.184f);
+		static constexpr const glm::vec3 MediumAquamarine = glm::vec3(0.400f, 0.804f, 0.667f);
+		static constexpr const glm::vec3 DarkSeaGreen = glm::vec3(0.561f, 0.737f, 0.561f);
+		static constexpr const glm::vec3 LightSeaGreen = glm::vec3(0.125f, 0.698f, 0.667f);
+		static constexpr const glm::vec3 DarkCyan = glm::vec3(0.000f, 0.545f, 0.545f);
+		static constexpr const glm::vec3 Teal = glm::vec3(0.000f, 0.502f, 0.502f);
+		static constexpr const glm::vec3 Aqua = glm::vec3(0.000f, 1.000f, 1.000f);
+		static constexpr const glm::vec3 Cyan = glm::vec3(0.000f, 1.000f, 1.000f);
+		static constexpr const glm::vec3 LightCyan = glm::vec3(0.878f, 1.000f, 1.000f);
+		static constexpr const glm::vec3 PaleTurquoise = glm::vec3(0.686f, 0.933f, 0.933f);
+		static constexpr const glm::vec3 Aquamarine = glm::vec3(0.498f, 1.000f, 0.831f);
+		static constexpr const glm::vec3 Turquoise = glm::vec3(0.251f, 0.878f, 0.816f);
+		static constexpr const glm::vec3 MediumTurquoise = glm::vec3(0.282f, 0.820f, 0.800f);
+		static constexpr const glm::vec3 DarkTurquoise = glm::vec3(0.000f, 0.808f, 0.820f);
+		static constexpr const glm::vec3 CadetBlue = glm::vec3(0.373f, 0.620f, 0.627f);
+		static constexpr const glm::vec3 SteelBlue = glm::vec3(0.275f, 0.510f, 0.706f);
+		static constexpr const glm::vec3 LightSteelBlue = glm::vec3(0.690f, 0.769f, 0.871f);
+		static constexpr const glm::vec3 PowderBlue = glm::vec3(0.690f, 0.878f, 0.902f);
+		static constexpr const glm::vec3 LightBlue = glm::vec3(0.678f, 0.847f, 0.902f);
+		static constexpr const glm::vec3 SkyBlue = glm::vec3(0.529f, 0.808f, 0.922f);
+		static constexpr const glm::vec3 LightSkyBlue = glm::vec3(0.529f, 0.808f, 0.980f);
+		static constexpr const glm::vec3 DeepSkyBlue = glm::vec3(0.000f, 0.749f, 1.000f);
+		static constexpr const glm::vec3 DodgerBlue = glm::vec3(0.118f, 0.565f, 1.000f);
+		static constexpr const glm::vec3 CornlowerBlue = glm::vec3(0.392f, 0.584f, 0.929f);
+		static constexpr const glm::vec3 MediumSlateBlue = glm::vec3(0.482f, 0.408f, 0.933f);
+		static constexpr const glm::vec3 RoyalBlue = glm::vec3(0.255f, 0.412f, 0.882f);
+		static constexpr const glm::vec3 Blue = glm::vec3(0.000f, 0.000f, 1.000f);
+		static constexpr const glm::vec3 MediumBlue = glm::vec3(0.000f, 0.000f, 0.804f);
+		static constexpr const glm::vec3 DarkBlue = glm::vec3(0.000f, 0.000f, 0.545f);
+		static constexpr const glm::vec3 Navy = glm::vec3(0.000f, 0.000f, 0.502f);
+		static constexpr const glm::vec3 MidnightBlue = glm::vec3(0.098f, 0.098f, 0.439f);
+		static constexpr const glm::vec3 Cornsilk = glm::vec3(1.000f, 0.973f, 0.863f);
+		static constexpr const glm::vec3 BlanchedAlmond = glm::vec3(1.000f, 0.922f, 0.804f);
+		static constexpr const glm::vec3 Bisque = glm::vec3(1.000f, 0.894f, 0.769f);
+		static constexpr const glm::vec3 NavajoWhite = glm::vec3(1.000f, 0.871f, 0.678f);
+		static constexpr const glm::vec3 Wheat = glm::vec3(0.961f, 0.871f, 0.702f);
+		static constexpr const glm::vec3 BurlyWood = glm::vec3(0.871f, 0.722f, 0.529f);
+		static constexpr const glm::vec3 Tan = glm::vec3(0.824f, 0.706f, 0.549f);
+		static constexpr const glm::vec3 RosyBrown = glm::vec3(0.737f, 0.561f, 0.561f);
+		static constexpr const glm::vec3 SandyBrown = glm::vec3(0.957f, 0.643f, 0.376f);
+		static constexpr const glm::vec3 Goldenrod = glm::vec3(0.855f, 0.647f, 0.125f);
+		static constexpr const glm::vec3 DarkGoldenrod = glm::vec3(0.722f, 0.525f, 0.043f);
+		static constexpr const glm::vec3 Peru = glm::vec3(0.804f, 0.522f, 0.247f);
+		static constexpr const glm::vec3 Chocolate = glm::vec3(0.824f, 0.412f, 0.118f);
+		static constexpr const glm::vec3 SaddleBrown = glm::vec3(0.545f, 0.271f, 0.075f);
+		static constexpr const glm::vec3 Sienna = glm::vec3(0.627f, 0.322f, 0.176f);
+		static constexpr const glm::vec3 Brown = glm::vec3(0.647f, 0.165f, 0.165f);
+		static constexpr const glm::vec3 Maroon = glm::vec3(0.502f, 0.000f, 0.000f);
+		static constexpr const glm::vec3 White = glm::vec3(1.000f, 1.000f, 1.000f);
+		static constexpr const glm::vec3 Snow = glm::vec3(1.000f, 0.980f, 0.980f);
+		static constexpr const glm::vec3 Honeydew = glm::vec3(0.941f, 1.000f, 0.941f);
+		static constexpr const glm::vec3 MintCream = glm::vec3(0.961f, 1.000f, 0.980f);
+		static constexpr const glm::vec3 Azure = glm::vec3(0.941f, 1.000f, 1.000f);
+		static constexpr const glm::vec3 AliceBlue = glm::vec3(0.941f, 0.973f, 1.000f);
+		static constexpr const glm::vec3 GhostWhite = glm::vec3(0.973f, 0.973f, 1.000f);
+		static constexpr const glm::vec3 WhiteSmoke = glm::vec3(0.961f, 0.961f, 0.961f);
+		static constexpr const glm::vec3 Seashell = glm::vec3(1.000f, 0.961f, 0.933f);
+		static constexpr const glm::vec3 Beige = glm::vec3(0.961f, 0.961f, 0.863f);
+		static constexpr const glm::vec3 OldLace = glm::vec3(0.992f, 0.961f, 0.902f);
+		static constexpr const glm::vec3 FloralWhite = glm::vec3(1.000f, 0.980f, 0.941f);
+		static constexpr const glm::vec3 Ivory = glm::vec3(1.000f, 1.000f, 0.941f);
+		static constexpr const glm::vec3 AntiqueWhite = glm::vec3(0.980f, 0.922f, 0.843f);
+		static constexpr const glm::vec3 Linen = glm::vec3(0.980f, 0.941f, 0.902f);
+		static constexpr const glm::vec3 LavenderBlush = glm::vec3(1.000f, 0.941f, 0.961f);
+		static constexpr const glm::vec3 MistyRose = glm::vec3(1.000f, 0.894f, 0.882f);
+		static constexpr const glm::vec3 Gainsboro = glm::vec3(0.863f, 0.863f, 0.863f);
+		static constexpr const glm::vec3 LightGrey = glm::vec3(0.827f, 0.827f, 0.827f);
+		static constexpr const glm::vec3 Silver = glm::vec3(0.753f, 0.753f, 0.753f);
+		static constexpr const glm::vec3 DarkGray = glm::vec3(0.663f, 0.663f, 0.663f);
+		static constexpr const glm::vec3 Gray = glm::vec3(0.502f, 0.502f, 0.502f);
+		static constexpr const glm::vec3 DimGray = glm::vec3(0.412f, 0.412f, 0.412f);
+		static constexpr const glm::vec3 LightSlateGray = glm::vec3(0.467f, 0.533f, 0.600f);
+		static constexpr const glm::vec3 SlateGray = glm::vec3(0.439f, 0.502f, 0.565f);
+		static constexpr const glm::vec3 DarkSlateGray = glm::vec3(0.184f, 0.310f, 0.310f);
+		static constexpr const glm::vec3 Black = glm::vec3(0.000f, 0.000f, 0.000f);
+    static constexpr const glm::vec3 OpenSceneGraphBG = glm::vec3(0.200f, 0.200f, 0.400f);
+	};
+}
+
+#endif
